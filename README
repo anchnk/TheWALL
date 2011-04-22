@@ -1,6 +1,10 @@
 Projet : Mur de la creativite
 Files :
 
-- TW01_TestFiltrageParticule : Example de filtrage de particules en fonction d'un critere de filtrage basique.
+- TheWall/TheWall.pde : template source vide.
 
-- Olivier Martin est un gros pingouin
+- MatroxTest/MatroxTest.pde : test non optimal de verlets pour validation matrox et definition de l'apparence et du comportement
+
+- MatroxTest/Particle.pde : classe de particule utilisee dans MatroxTest.pde
+
+- OscManager/OscManager.pde : test de "serveur" OSC pour le projet + quelques autre fonctionnalites
