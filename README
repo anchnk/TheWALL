@@ -8,3 +8,5 @@ Files :
 - MatroxTest/Particle.pde : classe de particule utilisee dans MatroxTest.pde
 
 - OscManager/OscManager.pde : test de "serveur" OSC pour le projet + quelques autre fonctionnalites
+
+- wp_bdd_connect_FDLA2011/wp_bdd_connect_FDLA2011.pde : test de connection a la BDD du WordPress
