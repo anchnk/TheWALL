@@ -35,7 +35,7 @@ void draw() {
   }
   physics.update();
   for (VerletParticle2D p : physics.particles) {
-    ellipse(p.x, p.y, 5, 5);
+    ellipse(p.x, p.y, p.getSize(), p.getSize());
   }
 }
 

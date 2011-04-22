@@ -1,14 +1,18 @@
-Class Particle {
+class Particle extends VerletParticle2D {
   
-  VerletParticle2D verlet;
-  float size;
+  //VerletParticle2D vp;
+  float psize;
 
   Particle(float s) {
-    size = s;
-    vp = new VerletParticle2D(Vec2D.randomVector().scale(size).addSelf(width / 2, height / 2));
+    psize = s;
+    super(Vec2D.randomVector().scale(psize).addSelf(width / 2, height / 2));
   }
   
   VerletParticle2D getVp() {
     return vp;
+  }
+  
+  float getSize() {
+    return psize;
   }
 }
