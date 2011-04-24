@@ -1,12 +1,19 @@
-Projet : Mur de la creativite
-Files :
+****************************************************************
+* 			Projet : Mur de la creativite			    *
+****************************************************************
+* FILES
+*--------------------------------------------------------------- 
 
-- TheWall/TheWall.pde : template source vide.
++ MatroxTest : Comportement physique simple pour tester affichage matrox sur deux projecteurs
 
-- MatroxTest/MatroxTest.pde : test non optimal de verlets pour validation matrox et definition de l'apparence et du comportement
++ OscManager : test de "serveur" OSC
 
-- MatroxTest/Particle.pde : classe de particule utilisee dans MatroxTest.pde
++ TheWALL : template principal du projet
 
-- OscManager/OscManager.pde : test de "serveur" OSC pour le projet + quelques autre fonctionnalites
++ TheWALLOlivier : version avec heritage de classe, incluant gestion et selection de particules, connexion a la bdd et recuperation des infos de la bdd lors de la creation de particules
 
-- wp_bdd_connect_FDLA2011/wp_bdd_connect_FDLA2011.pde : test de connection a la BDD du WordPress
++ TheWallMain : version avancee du moteur physique avec gestion des particules suivant la méthode de djo
+
++ TheWallMainExtended : premiere version avec héritage des classes
+
++ safe_wp_dbREad_FLDA2011 : example fonctionnel de connexion a la bdd + examples de requetes.
