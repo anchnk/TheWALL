@@ -4,6 +4,11 @@
 
 ********************************* FILES *********************************
 
++ DatabaseLoaderMain : classe encapsulant la gestion de la bdd, prends 
+un fichier de config pour se connecter a la bdd, pour l'instant charge
+uniquement les disciplines et les départemetns d'un projet selon son
+id
+
 + MatroxTest : Comportement physique simple pour tester affichage matrox
 sur deux projecteurs
 
