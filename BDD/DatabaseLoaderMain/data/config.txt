@@ -1,4 +1,0 @@
-serveur:88.191.17.115
-database:web88db1
-user:web88u1
-pass:zlw1ar66icd
