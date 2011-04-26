@@ -1,2 +1,2 @@
 # Ignorer les fichiers contenant les mots de passe a la bdd
-config.txt
+data/*
