@@ -1,6 +1,5 @@
 DatabaseLoader dbl;
 boolean databaseLoaded;
-float startTime;
 int cnt;
 PFont font;
 
@@ -19,21 +18,26 @@ void setup() {
   dbl.queryNumberOfProjects();
   println(dbl.getNumberOfProjects());
   databaseLoaded = false;
-  startTime = millis();
-  cnt = 0;
-}
 
-void draw() {
-  //background(0);
+  for (int i=0; i<dbl.getNumberOfProjects(); i++) {
+    println("i: " + (i+1) + " dept: " + dbl.getDept(i+1) + " disc: " +  dbl.getDis(i  +1));
+  }
+  /*
+  cnt = 0;
   if(!databaseLoaded) {
     if(cnt<dbl.getNumberOfProjects()) {   
       rect(2 + cnt, height/2, 1, 10);
       println("i: " + (cnt+1) + " dept: " + dbl.getDept(cnt+1) + " disc: " +  dbl.getDis(cnt+1));
-      startTime = millis();
+
       cnt++;
     }
     if(cnt == dbl.getNumberOfProjects())databaseLoaded = true;
   }
+  */
+}
+
+void draw() {
+  //background(0);
 }
 void stop() {
   dbl.close();
